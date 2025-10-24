@@ -27,7 +27,7 @@ public class Tag{
     }
 
     public String toString(){
-        return "Tag[CodiceUnivoco: " + this.codiceUnivoco + ", Descrizione: " + this.descrizione + "]";
+        return "Tag[CodiceUnivoco: " + this.codiceUnivoco + ", Descrizione: " + this.descrizione + ", Vicini: " + this.distanza + "]";
     }
 
     public float getDistanza() {

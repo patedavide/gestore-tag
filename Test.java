@@ -24,6 +24,7 @@ public class Test{
         Tag telefono = new Tag();
         telefono.setDescrizione("Iphone 19");
         c.aggiungiAggiorna(telefono);
+        c.vicini(10F);
 
         System.out.println(c);
 

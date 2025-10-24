@@ -16,10 +16,6 @@ public class Posizione{
         this.z = 0;
     }
 
-    public float[] getPosizione(){
-        return
-    }
-
     public double distanzaDa(Posizione p){
         return Math.sqrt(Math.pow(this.x - p.x, 2) + Math.pow(this.y - p.y, 2) + Math.pow(this.z - p.z, 2));
     }

@@ -31,15 +31,13 @@ public class Core{
         }
     }
 
-    public Tag[] vicini(float distanza){
+    public void vicini(float distanza){
         Tag[] vicini = new Tag[size];
         for(int i = 0; i < size; i++){
-            Posizione posTag = elenco[i].getDistanza();
             if(elenco[i].getDistanza() <= distanza)
                 vicini[i] = elenco[i];
         }
 
-        return vicini;
     }
 
     public String toString(){
