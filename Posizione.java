@@ -16,8 +16,8 @@ public class Posizione{
         this.z = 0;
     }
 
-    public float[] getPosizione{
-
+    public float[] getPosizione(){
+        return
     }
 
     public double distanzaDa(Posizione p){

@@ -34,8 +34,8 @@ public class Core{
     public Tag[] vicini(float distanza){
         Tag[] vicini = new Tag[size];
         for(int i = 0; i < size; i++){
-            Posizione posTag = elenco[i].getPosizione();
-            if(posTag.distanzaDa(posizioneCore) <= distanza)
+            Posizione posTag = elenco[i].getDistanza();
+            if(elenco[i].getDistanza() <= distanza)
                 vicini[i] = elenco[i];
         }
 

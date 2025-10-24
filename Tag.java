@@ -3,6 +3,7 @@ public class Tag{
     private int codiceUnivoco;
     private String descrizione;
     private Posizione posizione;
+    private float distanza;
    
     private static int counter = 0;
 
@@ -29,4 +30,7 @@ public class Tag{
         return "Tag[CodiceUnivoco: " + this.codiceUnivoco + ", Descrizione: " + this.descrizione + "]";
     }
 
+    public float getDistanza() {
+        return this.distanza;
+    }
 }
