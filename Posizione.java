@@ -1,5 +1,5 @@
 public class Posizione{
-    
+
     private float x;
     private float y;
     private float z;
@@ -14,6 +14,10 @@ public class Posizione{
         this.x = 0;
         this.y = 0;
         this.z = 0;
+    }
+
+    public float[] getPosizione{
+
     }
 
     public double distanzaDa(Posizione p){
